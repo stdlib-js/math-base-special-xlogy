@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.xlogy;
+})();
 })();
 </script>
 ```
@@ -103,6 +105,7 @@ out = xlogy( NaN, 2.3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-xlogy@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var y;
@@ -117,6 +120,7 @@ for ( i = 0; i < 100; i++ ) {
     console.log( 'xlogy(%d, %d) = %d', x, y, xlogy( x, y ) );
 }
 
+})();
 })();
 </script>
 </body>
@@ -213,9 +217,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd/tree/umd
 
-[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py/tree/umd
+[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
