@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-02-25)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`1de4fb4`](https://github.com/stdlib-js/stdlib/commit/1de4fb47e423e6ed0b9777cbb1194245ba1fe349) - **bench:** update random value generation [(#5404)](https://github.com/stdlib-js/stdlib/pull/5404) _(by Karan Anand, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
@@ -26,7 +61,7 @@
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
 -   [`dc20da0`](https://github.com/stdlib-js/stdlib/commit/dc20da0604fe2798e20e757277072fefc876da3c) - **chore:** update package meta data [(#1856)](https://github.com/stdlib-js/stdlib/pull/1856) _(by stdlib-bot, Philipp Burckhardt)_
--   [`665c735`](https://github.com/stdlib-js/stdlib/commit/665c7357a0439decbaecb80519ce017d87a15f04) - **feat:** add C implementation for `math/base/special/xlogy` _(by Rutam, Pranav)_
+-   [`665c735`](https://github.com/stdlib-js/stdlib/commit/665c7357a0439decbaecb80519ce017d87a15f04) - **feat:** add C implementation for `math/base/special/xlogy` _(by Rutam Kathale, Pranav)_
 
 </details>
 
@@ -43,7 +78,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Philipp Burckhardt
 -   Pranav Goswami
--   Rutam
+-   Rutam Kathale
 
 </section>
 
